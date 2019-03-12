@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_layout_header"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/nav_header_height"
+    android:foreground="?attr/selectableItemBackgroundBorderless"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:clickable="true"
+    android:focusable="true"
+    >
+
+    <ImageView
+        android:id="@+id/image_bg_nav_header"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/nav_header1"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="bottom"
+        android:padding="@dimen/activity_vertical_margin">
+
+        <com.example.kys_8.easymeetings.ui.view.CircleImageView
+            android:id="@+id/avatar_nav_header"
+            android:layout_width="64dp"
+            android:layout_height="64dp"
+            android:src="@mipmap/avatar_off"
+            app:border_width="2dp"
+            app:border_color="@color/google_yellow"/>
+
+        <TextView
+            android:id="@+id/username_nav_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="哈哈小明"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+        <TextView
+            android:id="@+id/mail_nav_header"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/nav_header_vertical_spacing"
+            android:text="2323563612@qq.com"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+    </LinearLayout>
+
+</FrameLayout>

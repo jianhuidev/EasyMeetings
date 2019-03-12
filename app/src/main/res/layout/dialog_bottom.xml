@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <TextView
+            android:text="请选择会议标签，或自定义"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+            android:layout_gravity="center_vertical"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/gray_very_light"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp">
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/r1"
+            android:layout_weight="1"
+            >
+
+            <com.example.kys_8.easymeetings.ui.view.CircleImageView
+                android:id="@+id/t1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/meeting_img1"
+                app:border_color="@color/gray_deep"/>
+
+            <TextView
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#525252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:text="公司"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/r2"
+            android:layout_weight="1"
+            >
+
+            <com.example.kys_8.easymeetings.ui.view.CircleImageView
+                android:id="@+id/t2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/meeting_img2"
+                app:border_color="@color/gray_deep"/>
+
+            <TextView
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#525252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:text="家校"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/r3"
+            android:layout_weight="1"
+            >
+
+            <com.example.kys_8.easymeetings.ui.view.CircleImageView
+                android:id="@+id/t3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/meeting_img3"
+                app:border_color="@color/gray_deep" />
+
+            <TextView
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#525252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:text="班级"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/r4"
+            android:layout_weight="1"
+            >
+
+            <com.example.kys_8.easymeetings.ui.view.CircleImageView
+                android:id="@+id/t4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/meeting_img4"
+                app:border_color="@color/gray_deep" />
+
+            <TextView
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#525252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:text="行业交流"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/r5"
+            android:layout_weight="1"
+            >
+
+            <com.example.kys_8.easymeetings.ui.view.CircleImageView
+                android:id="@+id/t5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_centerHorizontal="true"
+                android:src="@mipmap/meeting_img5"
+                app:border_color="@color/gray_deep" />
+
+            <TextView
+                android:textSize="13sp"
+                android:gravity="center"
+                android:textColor="#525252"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="16dp"
+                android:text="学习考试"
+                />
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/gray_very_light"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="4dp">
+        <TextView
+            android:text="自定义标签"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="8dp"
+
+            android:layout_gravity="center_vertical"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/gray_very_light"/>
+
+    <LinearLayout
+        android:id="@+id/take_photo_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="@drawable/line_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="拍照"
+            android:textColor="#191919"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.2dp"
+        android:background="@color/gray_very_light"/>
+    <LinearLayout
+        android:id="@+id/select_alum_create"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="@drawable/line_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="从相册选取"
+            android:textColor="#191919"
+            android:textSize="18dp" />
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="8dp"
+        android:background="@color/gray_very_light"/>
+
+    <LinearLayout
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:background="@drawable/line_bg">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="15dp"
+            android:text="取消"
+            android:textColor="#787878"
+            android:textSize="18dp" />
+    </LinearLayout>
+
+
+
+</LinearLayout>

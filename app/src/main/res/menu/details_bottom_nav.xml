@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/nav_1_details"
+        android:icon="@mipmap/nav_ic1"
+        android:title="详情"/>
+
+    <item
+        android:id="@+id/nav_resource_details"
+        android:icon="@mipmap/ic_folder"
+        android:title="资源"/>
+
+    <item
+        android:id="@+id/nav_member_details"
+        android:icon="@mipmap/ic_group"
+        android:title="成员"/>
+
+</menu>

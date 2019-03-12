@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/feedback_nav"
+        android:icon="@mipmap/chat"
+        android:title="意见反馈"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/bg_nav"
+        android:title="默认壁纸"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/scan_nav"
+        android:title="扫一扫"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/settings_nav"
+        android:title="设置"
+        app:showAsAction="never" />
+</menu>
