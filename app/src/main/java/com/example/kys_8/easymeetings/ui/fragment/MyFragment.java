@@ -45,6 +45,7 @@ public class MyFragment extends BaseFragment {
     @Override
     protected void initView(View view) {
 
+        LogUtil.e("Fragment","MyFragment");
         mRefreshLayout = (SwipeRefreshLayout)view.findViewById(R.id.refresh_my);
 
         mRecyclerView = (RecyclerView)view.findViewById(R.id.rv_my);

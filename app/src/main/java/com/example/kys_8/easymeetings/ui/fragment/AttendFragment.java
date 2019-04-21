@@ -43,6 +43,7 @@ public class AttendFragment extends BaseFragment{
 
     @Override
     protected void initView(View view) {
+        LogUtil.e("Fragment","AttendFragment");
         mRefreshLayout = (SwipeRefreshLayout)view.findViewById(R.id.refresh_attend);
 
         mRecyclerView = (RecyclerView)view.findViewById(R.id.rv_attend);

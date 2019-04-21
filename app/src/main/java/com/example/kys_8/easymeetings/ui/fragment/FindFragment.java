@@ -47,6 +47,7 @@ public class FindFragment extends BaseFragment implements View.OnClickListener{
     @Override
     protected void initView(View view) {
 
+        LogUtil.e("Fragment","FindFragment");
         scan_code = (LinearLayout) view.findViewById(R.id.scan_code);
         input_code = (LinearLayout) view.findViewById(R.id.input_code);
         scan_code.setOnClickListener(this);
