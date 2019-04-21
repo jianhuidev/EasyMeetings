@@ -5,6 +5,8 @@
 
 ## ![](/images/screen1.jpg)
 
+<img src="/images/screen2.jpg" width = "100" height = "100" div align=right />
+
 
 
 App 下载链接：http://mobile.baidu.com/item?docid=23889252&source=s1001
